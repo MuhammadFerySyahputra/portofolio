@@ -1,0 +1,91 @@
+/* color */
+.bg-orange{
+    background-color:	#ffa31a;
+}
+
+/* color end */
+
+body{
+    background-color: #064a4a !important;
+    color: white;
+}
+
+
+/* start navbar */
+
+.nav-link{
+    color: white !important;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: aqua !important;
+    transition: .5s ease-in-out;
+    
+} 
+ .nav-link:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px aqua !important;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.nav-link:hover:after {
+    transform: scaleX(1);
+}
+
+/* end navbar */
+
+/* jumbotron */
+.jumbotron{
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    background-color: #064a4a;
+    
+} 
+
+
+/* end jumbotron */
+
+/* start about */
+#about{
+    padding-top: 0;
+    background-color: #064a4a;
+    /* background-color: #053e3e; */
+}
+/* end about */
+
+/* start my docs */
+#myDocs{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 100PX;
+    background-color: #043030 !important;
+}
+
+#myDocs .card-body{
+    color: rgb(196, 190, 190) !important;
+    background-color: #212529 !important;
+}
+
+#myDocs .btn{
+    
+    color: rgb(196, 190, 190) !important;
+    background-color: #212529 !important;
+}
+
+#myDocs .btn:hover{
+    color: black !important;
+    background-color: aqua !important;
+    transition: .5s ease-in-out;
+}
+
+
+
+
+/* end my docs */
+
+/* start footer */
+
+/* end footer */
